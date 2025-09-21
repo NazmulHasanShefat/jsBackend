@@ -43,6 +43,14 @@ Install prettier with npm
   npm i -D prettier@3.1.0
 ```
 
+Install cookie parser with npm
+Install cors with npm
+
+```bash
+  npm i cookie-parser@1.3.5
+  npm i cors
+```
+
 ## configaretion
 
 ```js

@@ -8,7 +8,21 @@ dotenv.config({path: "./env"})
 const app = express();
 
 
-connect_DB();
+app.get("/", (req, res) => {
+    res.send("this is mongoos app")
+})
+
+connect_DB()
+.then(()=>{
+    app.listen(process.env.PORT || 8000, ()=>{
+        console.log(`server is running on port: http://localhost:${process.env.PORT}`)
+    })
+})
+.catch((err) => {
+    console.log(`mongobd catch a error from index.js: ${err}`)
+})
+
+
 
 // ( async ()=>{
 //     try {
