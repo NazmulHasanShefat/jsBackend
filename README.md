@@ -40,7 +40,7 @@
 Install prettier with npm
 
 ```bash
-  npm i `-D` prettier@3.1.0
+  npm i -D prettier@3.1.0
 ```
 
 ## configaretion
