@@ -45,6 +45,12 @@ Install cors with npm
 .env
 .env.*
 ```
+## .package.json config
+```js
+{
+  "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+}
+```
 
 
 ## Folder structure
