@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
     res.send("this is mongoos app")
 })
 
+// zokhon asyncronus kaj সম্পুর্ন হয় তখন সে একটা promise return koree 
 connect_DB()
 .then(()=>{
     app.listen(process.env.PORT || 8000, ()=>{

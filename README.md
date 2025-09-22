@@ -17,12 +17,16 @@ Install prettier with npm
 ```bash
   npm i -D prettier@3.1.0
 ```
-
-Install cookie parser with npm
-Install cors with npm
-
+Install for Watch history
+it's to write allows aggregation querys
 ```bash
-  npm i cookie-parser@1.3.5
+  npm i mongoose-aggregate-paginate-v2@1.0.41
+```
+
+
+Install cors with npm
+cors আমাদের সেটিংস করতে দেয় আমাদের যত `(ক্রস corss)` origin resourse shereing আছে তার জন্য। 
+```bash
   npm i cors
 ```
 
