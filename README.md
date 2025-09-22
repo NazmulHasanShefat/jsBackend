@@ -23,6 +23,14 @@ it's to write allows aggregation querys
   npm i mongoose-aggregate-paginate-v2@1.0.41
 ```
 
+Install for file uploding
+```bash
+  npm i multer
+```
+```bash
+  npm i cloudinary
+```
+
 
 Install cors with npm
 cors আমাদের সেটিংস করতে দেয় আমাদের যত `(ক্রস corss)` origin resourse shereing আছে তার জন্য। 
