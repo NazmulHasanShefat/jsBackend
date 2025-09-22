@@ -59,14 +59,11 @@ userSchema.methods.generateAccessToken = function () {
 userSchema.methods.generateRefreshToken = function () {
        return jsonwebtoken.sign(
         {
-             _id: this._id,
-            email: this.email,
-            userName: this.userName,
-            fullName: this.fullName
-       },
-       process.env.ACCESS_TOKEN_SECRET,
+         _id: this._id,
+        },
+       process.env.REFRESH_TOKEN_SECRE,
        {
-          expiresIn: process.env.ACCESS_TOKEN_EXPIRY
+          expiresIn: process.env.REFRESH_TOKEN_EXPITY
        }
   )
 }
