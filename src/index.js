@@ -1,16 +1,17 @@
 // require('dotenv').config()
+import { app } from "./app.js";
 import dotenv from "dotenv"
 import mongoose from "mongoose";
 import { DB_NAME } from "./constansts.js";
 import express from "express";
 import connect_DB from "./db/db_connect.js";
 dotenv.config({path: "./env"})
-const app = express();
+// const app = express();
 
 
-app.get("/", (req, res) => {
-    res.send("this is mongoos app")
-})
+// app.get("/", (req, res) => {
+//     res.send("this is mongoos app")
+// })
 
 // zokhon asyncronus kaj সম্পুর্ন হয় তখন সে একটা promise return koree 
 connect_DB()

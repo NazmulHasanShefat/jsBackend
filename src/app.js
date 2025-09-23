@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+// import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
 // server theke user er cookie zeno access korte pari and delete korote pari 
@@ -28,7 +28,14 @@ app.use(express.static("public"))
 // server theke user er browser er cookies zeno access korte pari and  cookies set ooo korte pari
 // cookie er moddle sucurely crud opatation korte pari কিছ পদ্ধতি আছে যখান থেকে সিকিউর cookies user 
 // er browser e রাখতে পারি সেই  cookie sudhu amar server e read korte parbe onno keu read korte parbe na
-app.use(express.cookieParser())
+app.use(cookieParser())
 
+
+
+// routes import
+import userRouter from "./routes/user.routes.js"
+
+// routes declaretion
+app.use("/api/v1/users", userRouter )
 
 export { app };
