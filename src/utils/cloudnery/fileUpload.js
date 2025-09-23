@@ -23,7 +23,7 @@ const UploadOnCloudinary = async (localFilePath) =>{
     }
 }
 
-export default UploadOnCloudinary;
+export { UploadOnCloudinary };
 
 // cloudinary.v2.uploader.upload("hat.jpg", { 
 //      use_filename: true})
