@@ -8,34 +8,34 @@
 
 install packages 
 ```bash
-  npm i dotenv express mongoose cors jsonwebtoken bcryptjs nodemailer cookie-parser
+npm i dotenv express mongoose cors jsonwebtoken bcryptjs nodemailer cookie-parser
 ```
 ```bash
-  npm i -D nodemon
+npm i -D nodemon
 ```
 Install prettier with npm
 ```bash
-  npm i -D prettier@3.1.0
+npm i -D prettier@3.1.0
 ```
 Install for Watch history
 it's to write allows aggregation querys
 ```bash
-  npm i mongoose-aggregate-paginate-v2@1.0.41
+npm i mongoose-aggregate-paginate-v2@1.0.41
 ```
 
 Install for file uploding
 ```bash
-  npm i multer
+npm i multer
 ```
 ```bash
-  npm i cloudinary
+npm i cloudinary
 ```
 
 
 Install cors with npm
 cors আমাদের সেটিংস করতে দেয় আমাদের যত `(ক্রস corss)` origin resourse shereing আছে তার জন্য। 
 ```bash
-  npm i cors
+npm i cors
 ```
 
 ## prettierrc file configaretion
